@@ -26,6 +26,10 @@ public class Plateau {
         }
     }
 
+    public Colomn[] getEchiquier() {
+        return this.echiquier;
+    }
+
     public String toString() {
         StringBuilder stb = new StringBuilder();
         for(int i = 0; i < this.size; i++) {
