@@ -16,12 +16,13 @@ public class RecuitSimule extends Methode {
 
     @Override
     public void choisirVoisin() {
-        int[][] voisins = getVoisins();
-        int choix = (int) (Math.random() * (voisins.length));
+        getVoisins();
+        int choix = (int) (Math.random() * (this.listeVoisins.length));
         System.out.println("CHOIX " + choix);
-        Plateau plateau = new Plateau(voisins[choix]);
-        System.out.println(plateau);
-        System.out.println("Fitness voisin : " + calculFitness(voisins[choix]));
+        this.voisinChoisi = new Plateau(this.listeVoisins[choix]);
+        System.out.println(this.voisinChoisi);
+       this.fitnessVoisinChoisi = calculFitness(this.voisinChoisi.getEchiquierNumber());
+        System.out.println("Fitness voisin choisi : " + this.fitnessVoisinChoisi);
     }
 
 }

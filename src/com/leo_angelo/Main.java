@@ -5,8 +5,9 @@ public class Main {
     public static void main(String[] args) {
 	    Plateau plateau = new Plateau(10);
         System.out.print(plateau);
-        RecuitSimule rs = new RecuitSimule(plateau);
-        System.out.println("Fitness : " + rs.calculFitness(plateau.getEchiquierNumber()));
-        rs.choisirVoisin();
+        //RecuitSimule rs = new RecuitSimule(plateau);
+        Tabou t = new Tabou(plateau);
+        System.out.println("Fitness : " + t.calculFitness(plateau.getEchiquierNumber()));
+        t.choisirVoisin();
     }
 }

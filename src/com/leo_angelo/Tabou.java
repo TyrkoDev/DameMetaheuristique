@@ -15,6 +15,15 @@ public class Tabou extends Methode {
 
     @Override
     public void choisirVoisin() {
+        getVoisins();
+        int[] fitnessVoisins = new int[this.listeVoisins.length];
+        for(int i=0; i<this.listeVoisins.length; i++) {
+            fitnessVoisins[i] = calculFitness(this.listeVoisins[i]);
+            System.out.println("Voisin " + i + " has fitness " + fitnessVoisins[i]);
+        }
+    }
 
+    public int findMaximum() {
+        return 0;
     }
 }

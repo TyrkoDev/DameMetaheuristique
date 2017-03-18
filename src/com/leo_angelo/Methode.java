@@ -11,6 +11,9 @@ public abstract class Methode {
     protected Plateau plateau; // X0
     protected int fitness;     // f0
     protected int i = 0;       // nb itération
+    protected Plateau voisinChoisi;
+    protected int fitnessVoisinChoisi;
+    protected int[][] listeVoisins;
 
     public Methode(Plateau p) {
         this.plateau = p;
@@ -26,7 +29,6 @@ public abstract class Methode {
         for(int i = 0; i < colomns.length; i++) {
             for(int j = i+1; j < colomns.length; j++) {
                 if (Math.abs(colomns[i] - colomns[j]) == (Math.abs(i - j))) {
-                    System.out.println("I : " + i + " & J : " + j);
                     fit++;
                 }
             }
@@ -41,16 +43,16 @@ public abstract class Methode {
         return (this.plateau.getEchiquier().length-1) * (this.plateau.getEchiquier().length/2);
     }
 
-    public int[][] getVoisins() {
+    public void getVoisins() {
         System.out.println("Listing voisins");
-        int[][] voisins = new int[getNombreVoisins()][];
+        this.listeVoisins = new int[getNombreVoisins()][];
         int cpt = 0;
         for(int i = 0; i < this.plateau.getEchiquier().length; i++) {
             for(int j = i+1; j < this.plateau.getEchiquier().length; j++) {
-                voisins[cpt] =  this.plateau.getEchiquierNumber();
-                int colonneTemp = voisins[cpt][i];
-                voisins[cpt][i] = voisins[cpt][j];
-                voisins[cpt][j] = colonneTemp;
+                listeVoisins[cpt] =  this.plateau.getEchiquierNumber();
+                int colonneTemp = listeVoisins[cpt][i];
+                listeVoisins[cpt][i] = listeVoisins[cpt][j];
+                listeVoisins[cpt][j] = colonneTemp;
                 cpt++;
             }
         }
@@ -63,6 +65,5 @@ public abstract class Methode {
             }
             System.out.println("]\n\n");
         }*/
-        return voisins;
     }
 }
