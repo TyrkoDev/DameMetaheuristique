@@ -7,5 +7,6 @@ public class Main {
         System.out.print(plateau);
         RecuitSimule rs = new RecuitSimule(plateau);
         System.out.println("Fitness : " + rs.calculFitness());
+        rs.choisirVoisin();
     }
 }

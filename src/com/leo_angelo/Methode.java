@@ -1,5 +1,9 @@
 package com.leo_angelo;
 
+import com.sun.org.apache.xpath.internal.SourceTree;
+
+import java.util.ArrayList;
+
 /**
  * Created by Angelo on 15/03/2017.
  */
@@ -11,6 +15,7 @@ public abstract class Methode {
     public Methode(Plateau p) {
         this.plateau = p;
         this.fitness = this.calculFitness();
+        choisirVoisin();
     }
 
     public abstract void resolve();
@@ -31,7 +36,30 @@ public abstract class Methode {
         return fit;
     }
 
-    public void choisirVoisin() {
+    public abstract void choisirVoisin();
 
+    public int[][] getVoisins() {
+        System.out.println("Listing voisins");
+        int[][] voisins = new int[45][];
+        int cpt = 0;
+        for(int i = 0; i < this.plateau.getEchiquier().length; i++) {
+            for(int j = i+1; j < this.plateau.getEchiquier().length; j++) {
+                voisins[cpt] =  this.plateau.getEchiquierNumber();
+                int colonneTemp = voisins[cpt][i];
+                voisins[cpt][i] = voisins[cpt][j];
+                voisins[cpt][j] = colonneTemp;
+                cpt++;
+            }
+        }
+
+        /*System.out.println("Listing voisins : \n");
+        for(int i = 0; i < voisins.length; i++) {
+            System.out.println("Voisins " + i + " : [");
+            for(int j = 0; j < voisins[i].length; j++) {
+                System.out.println(voisins[i][j] + " ");
+            }
+            System.out.println("]\n\n");
+        }*/
+        return voisins;
     }
 }

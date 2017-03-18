@@ -26,8 +26,24 @@ public class Plateau {
         }
     }
 
+    public Plateau(int[] colomns) {
+        this.size = colomns.length;
+        this.echiquier = new Colomn[this.size];
+        for(int i = 0; i < this.size; i++) {
+            this.echiquier[i] = new Colomn(colomns[i]);
+        }
+    }
+
     public Colomn[] getEchiquier() {
         return this.echiquier;
+    }
+
+    public int[] getEchiquierNumber() {
+        int[] echiquierNumber = new int[this.echiquier.length];
+        for(int i=0; i<this.echiquier.length; i++) {
+            echiquierNumber[i] = this.echiquier[i].getNum();
+        }
+        return echiquierNumber;
     }
 
     public String toString() {

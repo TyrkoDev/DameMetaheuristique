@@ -12,4 +12,9 @@ public class Tabou extends Methode {
     public void resolve() {
 
     }
+
+    @Override
+    public void choisirVoisin() {
+
+    }
 }
