@@ -16,7 +16,7 @@ public class PlateauGraph extends JDialog {
         this.plateau = new Plateau(10);
         System.out.print(plateau);
         RecuitSimule rs = new RecuitSimule(plateau);
-        System.out.println("Fitness : " + rs.calculFitness());
+        System.out.println("Fitness : " + rs.calculFitness(plateau.getEchiquierNumber()));
 
         Colomn[] matrice = this.plateau.getEchiquier();
         this.grille.setLayout(new GridLayout(10, 10));

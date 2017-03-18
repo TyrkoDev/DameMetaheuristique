@@ -6,7 +6,7 @@ public class Main {
 	    Plateau plateau = new Plateau(10);
         System.out.print(plateau);
         RecuitSimule rs = new RecuitSimule(plateau);
-        System.out.println("Fitness : " + rs.calculFitness());
+        System.out.println("Fitness : " + rs.calculFitness(plateau.getEchiquierNumber()));
         rs.choisirVoisin();
     }
 }

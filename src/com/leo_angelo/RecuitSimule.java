@@ -11,7 +11,7 @@ public class RecuitSimule extends Methode {
 
     @Override
     public void resolve() {
-        calculFitness();
+        calculFitness(this.plateau.getEchiquierNumber());
     }
 
     @Override
@@ -21,6 +21,7 @@ public class RecuitSimule extends Methode {
         System.out.println("CHOIX " + choix);
         Plateau plateau = new Plateau(voisins[choix]);
         System.out.println(plateau);
+        System.out.println("Fitness voisin : " + calculFitness(voisins[choix]));
     }
 
 }

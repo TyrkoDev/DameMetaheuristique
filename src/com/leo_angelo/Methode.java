@@ -14,19 +14,18 @@ public abstract class Methode {
 
     public Methode(Plateau p) {
         this.plateau = p;
-        this.fitness = this.calculFitness();
+        this.fitness = this.calculFitness(this.plateau.getEchiquierNumber());
         choisirVoisin();
     }
 
     public abstract void resolve();
 
-    public int calculFitness() {
+    public int calculFitness(int[] colomns) {
         int fit = 0;
-        Colomn[] colomns = this.plateau.getEchiquier();
 
         for(int i = 0; i < colomns.length; i++) {
             for(int j = i+1; j < colomns.length; j++) {
-                if (Math.abs(colomns[i].getNum() - colomns[j].getNum()) == (Math.abs(i - j))) {
+                if (Math.abs(colomns[i] - colomns[j]) == (Math.abs(i - j))) {
                     System.out.println("I : " + i + " & J : " + j);
                     fit++;
                 }
