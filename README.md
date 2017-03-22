@@ -6,5 +6,6 @@ Méthodes Métaheuristique :
   - Algorithme génétique
   
   Todo:
-  Implémenter la gestion de la liste des tabous (arraylist, tab ?)
-  Implémenter température dans recuit simulé (calcul T0 : faire une moyenne d'une liste de fitness ? les pires fitness des voisins de l'état initial ? valeur de la proba ?)
+  Définir calcul de la température initiale en recuit simulé
+  Créer interface utilisateur pour choix de la méthode à appliquer pour résoudre le problème
+ 
