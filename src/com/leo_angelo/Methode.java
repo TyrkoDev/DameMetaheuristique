@@ -19,9 +19,9 @@ public abstract class Methode {
         this.plateau = p;
         this.fitness = this.calculFitness(this.plateau.getEchiquier());
         this.nombreVoisin = getNombreVoisins();
-        //choisirVoisin();
+        choisirVoisin();
         //System.out.println("Nombre de voisins : " + getNombreVoisins());
-        getVoisins();
+        //getVoisins();
     }
 
     public int calculFitness(int[] colomns) {
@@ -49,20 +49,25 @@ public abstract class Methode {
         int cpt = 0;
         for(int i = 0; i < this.plateau.getEchiquier().length; i++) {
             for(int j = i+1; j < this.plateau.getEchiquier().length; j++) {
-                listeVoisins[cpt] =  this.plateau.getEchiquier();
-                int colonneTemp = listeVoisins[cpt][i];
-                listeVoisins[cpt][i] = listeVoisins[cpt][j];
-                listeVoisins[cpt][j] = colonneTemp;
+                //System.out.println("Voisin " + cpt + ", remplacement de la colonne " + this.plateau.getEchiquier()[i] + " avec la colonne " + this.plateau.getEchiquier()[j]);
+                //System.out.println("I : " + i + " - J : " + j);
+                //System.out.println("val I : " + this.plateau.getEchiquier()[i] + " - val J : " + this.plateau.getEchiquier()[j]);
+                this.listeVoisins[cpt] =  this.plateau.getEchiquier();
+                int colonneTemp = this.listeVoisins[cpt][i];
+                this.listeVoisins[cpt][i] = this.listeVoisins[cpt][j];
+
+                this.listeVoisins[cpt][j] = colonneTemp;
+
                 cpt++;
             }
         }
 
-        for(int i = 0; i < listeVoisins.length; i++) {
+/*        for(int i = 0; i < listeVoisins.length; i++) {
             System.out.println("Voisins " + i + " : [");
             for(int j = 0; j < listeVoisins[i].length; j++) {
                 System.out.println(listeVoisins[i][j] + " ");
             }
             System.out.println("]\n\n");
-        }
+        }*/
     }
 }

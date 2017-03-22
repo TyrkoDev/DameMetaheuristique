@@ -38,7 +38,11 @@ public class Plateau {
     }
 
     public int[] getEchiquier() {
-        return this.echiquier;
+        int[] echiquierReturn = new int[this.echiquier.length];
+        for(int i = 0; i<this.echiquier.length; i++) {
+            echiquierReturn[i] = this.echiquier[i];
+        }
+        return echiquierReturn;
     }
 
     /*public int[] getEchiquierNumber() {

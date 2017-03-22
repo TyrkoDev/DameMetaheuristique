@@ -9,20 +9,20 @@ public class PlateauGraph extends JDialog {
     private JPanel grille;
     private Plateau plateau;
 
-    public PlateauGraph() {
+    public PlateauGraph(int size) {
         setContentPane(contentPane);
         setModal(true);
 
-        this.plateau = new Plateau(10);
+        this.plateau = new Plateau(size);
         System.out.print(plateau);
         //RecuitSimule rs = new RecuitSimule(plateau);
         Tabou t = new Tabou(plateau);
         System.out.println("Fitness : " + t.calculFitness(plateau.getEchiquier()));
 
         int[] matrice = this.plateau.getEchiquier();
-        this.grille.setLayout(new GridLayout(10, 10));
-        for(int i = 0; i < 10; i++) {
-            for(int j = 0; j < 10; j++) {
+        this.grille.setLayout(new GridLayout(size, size));
+        for(int i = 0; i < size; i++) {
+            for(int j = 0; j < size; j++) {
                 JButton val = new JButton();
                 val.setBackground(Color.WHITE);
                 val.setText(matrice[i] == j ? "D" : " ");
@@ -32,7 +32,7 @@ public class PlateauGraph extends JDialog {
     }
 
     public static void main(String[] args) {
-        PlateauGraph dialog = new PlateauGraph();
+        PlateauGraph dialog = new PlateauGraph(10);
         dialog.pack();
         dialog.setVisible(true);
         System.exit(0);

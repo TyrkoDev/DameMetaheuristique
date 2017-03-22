@@ -36,6 +36,7 @@ public class Tabou extends Methode {
         this.plateau = new Plateau(listeVoisins[iMeilleurVoisin]);
         System.out.println("Nouveau plateau: ");
         System.out.println(this.plateau);
+        
     }
 
     public int findMaximumFitness() {
