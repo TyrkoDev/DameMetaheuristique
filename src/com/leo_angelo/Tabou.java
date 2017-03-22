@@ -41,16 +41,14 @@ public class Tabou extends Methode {
             //System.out.println("Voisin " + i + " has fitness " + this.fitnessVoisins[i]);
         }
         int iMeilleurVoisin = findMaximumFitness();
-        this.voisinChoisi = new Plateau(this.listeVoisins[iMeilleurVoisin]);
-        this.fitnessVoisinChoisi = this.fitnessVoisins[iMeilleurVoisin];
-        System.out.println("Meilleur voisin : " + iMeilleurVoisin + " has fitness " + this.fitnessVoisinChoisi);
+        System.out.println("Meilleur voisin : " + iMeilleurVoisin + " has fitness " + this.fitnessVoisins[iMeilleurVoisin]);
 
-        if(this.fitnessVoisinChoisi >= this.fitness) {
-            System.out.println("Ajout en tabou !!");
+        if(this.fitnessVoisins[iMeilleurVoisin] >= this.fitness) {
+            System.out.println("Ajout du voisin " + iMeilleurVoisin + " en tabou !!");
             ajouterTabou(iMeilleurVoisin);
         }
         this.plateau = new Plateau(listeVoisins[iMeilleurVoisin]);
-        this.fitness = this.fitnessVoisinChoisi;
+        this.fitness = this.fitnessVoisins[iMeilleurVoisin];
         System.out.println("Nouveau plateau: ");
         System.out.println(this.plateau);
 

@@ -12,8 +12,6 @@ public abstract class Methode {
 
     protected Plateau plateau; // X0
     protected int fitness;     // f0
-    protected Plateau voisinChoisi;
-    protected int fitnessVoisinChoisi;
     protected int[][] listeVoisins;
     protected int nombreVoisin;
     protected int nombreIteration = 10;
