@@ -16,10 +16,6 @@ public class Tabou extends Methode {
         super(p);
     }
 
-    @Override
-    public void resolve() {
-
-    }
 
     @Override
     public void choisirVoisin() {

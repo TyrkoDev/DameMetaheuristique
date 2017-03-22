@@ -7,7 +7,7 @@ public class Main {
         System.out.print(plateau);
         //RecuitSimule rs = new RecuitSimule(plateau);
         Tabou t = new Tabou(plateau);
-        System.out.println("Fitness : " + t.calculFitness(plateau.getEchiquierNumber()));
+        System.out.println("Fitness : " + t.calculFitness(plateau.getEchiquier()));
         t.choisirVoisin();
     }
 }

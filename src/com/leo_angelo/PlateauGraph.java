@@ -17,15 +17,15 @@ public class PlateauGraph extends JDialog {
         System.out.print(plateau);
         //RecuitSimule rs = new RecuitSimule(plateau);
         Tabou t = new Tabou(plateau);
-        System.out.println("Fitness : " + t.calculFitness(plateau.getEchiquierNumber()));
+        System.out.println("Fitness : " + t.calculFitness(plateau.getEchiquier()));
 
-        Colomn[] matrice = this.plateau.getEchiquier();
+        int[] matrice = this.plateau.getEchiquier();
         this.grille.setLayout(new GridLayout(10, 10));
         for(int i = 0; i < 10; i++) {
             for(int j = 0; j < 10; j++) {
                 JButton val = new JButton();
                 val.setBackground(Color.WHITE);
-                val.setText(matrice[i].getNum() == j ? "D" : " ");
+                val.setText(matrice[i] == j ? "D" : " ");
                 grille.add(val);
             }
         }
