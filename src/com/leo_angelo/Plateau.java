@@ -64,4 +64,8 @@ public class Plateau {
 
         return stb.toString();
     }
+
+    public int getSize() {
+        return this.size;
+    }
 }

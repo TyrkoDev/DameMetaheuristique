@@ -8,21 +8,24 @@ import java.util.ArrayList;
  * Created by Angelo on 15/03/2017.
  */
 public abstract class Methode {
+    protected PlateauGraph grille;
+
     protected Plateau plateau; // X0
     protected int fitness;     // f0
     protected Plateau voisinChoisi;
     protected int fitnessVoisinChoisi;
     protected int[][] listeVoisins;
     protected int nombreVoisin;
+    protected int nombreIteration = 10;
 
     public Methode(Plateau p) {
         this.plateau = p;
         this.fitness = this.calculFitness(this.plateau.getEchiquier());
+        System.out.println("Fitness du plateau initial : " + this.fitness);
         this.nombreVoisin = getNombreVoisins();
-        choisirVoisin();
-        //System.out.println("Nombre de voisins : " + getNombreVoisins());
-        //getVoisins();
     }
+
+    public abstract void resolve();
 
     public int calculFitness(int[] colomns) {
         int fit = 0;
@@ -49,9 +52,6 @@ public abstract class Methode {
         int cpt = 0;
         for(int i = 0; i < this.plateau.getEchiquier().length; i++) {
             for(int j = i+1; j < this.plateau.getEchiquier().length; j++) {
-                //System.out.println("Voisin " + cpt + ", remplacement de la colonne " + this.plateau.getEchiquier()[i] + " avec la colonne " + this.plateau.getEchiquier()[j]);
-                //System.out.println("I : " + i + " - J : " + j);
-                //System.out.println("val I : " + this.plateau.getEchiquier()[i] + " - val J : " + this.plateau.getEchiquier()[j]);
                 this.listeVoisins[cpt] =  this.plateau.getEchiquier();
                 int colonneTemp = this.listeVoisins[cpt][i];
                 this.listeVoisins[cpt][i] = this.listeVoisins[cpt][j];

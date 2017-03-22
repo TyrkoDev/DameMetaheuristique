@@ -9,6 +9,10 @@ public class RecuitSimule extends Methode {
         super(p);
     }
 
+    public void resolve() {
+
+    }
+
     @Override
     public void choisirVoisin() {
         getVoisins();
