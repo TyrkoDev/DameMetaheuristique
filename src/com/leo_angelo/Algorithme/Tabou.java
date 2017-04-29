@@ -28,7 +28,6 @@ public class Tabou extends Methode {
         this.grille = new PlateauGraph(this.plateau);
         grille.pack();
         grille.setVisible(true);
-        System.exit(0);
     }
 
 

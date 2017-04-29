@@ -43,7 +43,6 @@ public abstract class Methode {
     }
 
     public void getVoisins() {
-        System.out.println("Listing voisins...");
         this.listeVoisins = new int[this.nombreVoisin][];
         int cpt = 0;
         for(int i = 0; i < this.plateau.getEchiquier().length; i++) {
