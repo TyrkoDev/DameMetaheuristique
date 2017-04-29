@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03c5ff8e-1dac-4ee5-b65e-88dacc749db5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/leo_angelo/Algorithme/Methode.java" afterPath="$PROJECT_DIR$/src/com/leo_angelo/Algorithme/Methode.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/leo_angelo/Algorithme/RecuitSimule.java" afterPath="$PROJECT_DIR$/src/com/leo_angelo/Algorithme/RecuitSimule.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/leo_angelo/Algorithme/Tabou.java" afterPath="$PROJECT_DIR$/src/com/leo_angelo/Algorithme/Tabou.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,10 +63,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RecuitSimule.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RecuitSimule.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/leo_angelo/Algorithme/RecuitSimule.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
+            <state relative-caret-position="220">
               <caret line="53" column="47" lean-forward="true" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
               <folding>
                 <element signature="e#391#392#0" expanded="true" />
@@ -75,6 +74,19 @@
                 <element signature="e#610#611#0" expanded="true" />
                 <element signature="e#652#653#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="153">
+                <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -125,6 +137,7 @@
         <option value="$PROJECT_DIR$/src/com/leo_angelo/Algorithme/Methode.java" />
         <option value="$PROJECT_DIR$/src/com/leo_angelo/Algorithme/Tabou.java" />
         <option value="$PROJECT_DIR$/src/com/leo_angelo/Algorithme/RecuitSimule.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -676,12 +689,12 @@
       <updated>1489585931392</updated>
       <workItem from="1489585947838" duration="10527000" />
       <workItem from="1489967025177" duration="13000" />
-      <workItem from="1493474394171" duration="14153000" />
+      <workItem from="1493474394171" duration="14532000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24693000" />
+    <option name="totallyTimeSpent" value="25072000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1552" height="840" extended-state="6" />
@@ -953,7 +966,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/leo_angelo/Algorithme/RecuitSimule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
+        <state relative-caret-position="220">
           <caret line="53" column="47" lean-forward="true" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
           <folding>
             <element signature="e#391#392#0" expanded="true" />
@@ -961,6 +974,17 @@
             <element signature="e#610#611#0" expanded="true" />
             <element signature="e#652#653#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="153">
+            <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

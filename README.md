@@ -1,11 +1,10 @@
 # DameMetaheuristique
 
-Méthodes Métaheuristique :
+####Méthodes Métaheuristique :
   - Recuit simulé
   - Tabou
   - Algorithme génétique
   
-  Todo:
-  Définir calcul de la température initiale en recuit simulé
-  Créer interface utilisateur pour choix de la méthode à appliquer pour résoudre le problème
- 
+  >Todo:
+  > - Ajouter des fenêtres de paramètres pour chaque méthode lors de la séléction d'une d'entre elle
+  > - Implémenter l'algo génétique (mutation, reproduction, croisement)
