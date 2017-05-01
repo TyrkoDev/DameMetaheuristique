@@ -1,6 +1,11 @@
 package com.leo_angelo.Algorithme;
 
 import com.leo_angelo.Vue.PlateauGraph;
+import com.leo_angelo.Vue.RecuitVue;
+import org.jfree.chart.ChartFactory;
+import org.jfree.chart.JFreeChart;
+import org.jfree.chart.plot.PlotOrientation;
+import org.jfree.data.statistics.HistogramDataset;
 
 /**
  * Created by Angelo on 15/03/2017.
@@ -13,13 +18,34 @@ public class RecuitSimule extends Methode {
     private double temperature;
     private Plateau voisin;
     private Plateau meilleureSolution;
+    private RecuitVue recuitVue;
+    private double p = 0.5;
+    private double u = 0.99;
 
     public RecuitSimule(Plateau p) {
         super(p);
+
+        recuitVue = new RecuitVue(this.plateau, this);
+        recuitVue.pack();
+        recuitVue.setVisible(true);
+    }
+
+    @Override
+    public void init() {
+        super.init();
+        choix = -1;
+        deltaf = -1;
+        fitnessMin = -1;
     }
 
     public int calculDelta(int fitnessVoisin) {
         return fitnessVoisin - this.calculFitness(this.plateau.getEchiquier());
+    }
+
+    public void setParam(double p, double u, Plateau plateau) {
+        this.p = p;
+        this.u = u;
+        this.plateau = plateau;
     }
 
     public double getTemperature(double delta, double p) {
@@ -27,8 +53,9 @@ public class RecuitSimule extends Methode {
     }
 
     public void resolve() {
+        init();
         boolean sortie = false;
-        temperature = getTemperature(deltaf, 0.5);
+        temperature = getTemperature(deltaf, p);
         meilleureSolution = plateau; // Initialisation de Xmin
         fitnessMin = calculFitness(meilleureSolution.getEchiquier()); // Initialisation de F(Xmin)
 
@@ -48,23 +75,19 @@ public class RecuitSimule extends Methode {
                     }
                 } else { //Sinon
                     double p = Math.random(); //On prend un valeur entre 0 et 1
-                    System.out.println("Condition : " + Math.exp(-deltaf / temperature));
                     if (p <= Math.exp(-deltaf / temperature))
                         plateau = voisin; // Si condition == true alors voisin devient Xi+1
                     //Sinon on garde le plateau
                 }
             }
-            System.out.println("Fitness X : " + calculFitness(plateau.getEchiquier()));
-            System.out.println("Temperature : " + temperature);
-            temperature *= 0.99f; // on décroit la temperature jusqu'à 0.000001
-            if(temperature < 0.000001) sortie = true; //Condition de sortie
-        }
-        System.out.println(plateau);
-        System.out.println(calculFitness(plateau.getEchiquier()));
 
-        this.grille = new PlateauGraph(this.plateau);
-        grille.pack();
-        grille.setVisible(true);
+            recuitVue.updateChart(calculFitness(plateau.getEchiquier()));
+
+            temperature *= u; // on décroit la temperature jusqu'à 0.000001
+            if(temperature < 0.00001) sortie = true; //Condition de sortie
+        }
+
+        //recuitVue.drawResult(plateau);
     }
 
     @Override

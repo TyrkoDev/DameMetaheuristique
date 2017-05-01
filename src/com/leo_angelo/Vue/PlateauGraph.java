@@ -15,8 +15,6 @@ public class PlateauGraph extends JDialog {
         setModal(true);
         int size = plateau.getSize();
 
-
-
         int[] matrice = plateau.getEchiquier();
         this.grille.setLayout(new GridLayout(size, size));
         for(int i = 0; i < size; i++) {

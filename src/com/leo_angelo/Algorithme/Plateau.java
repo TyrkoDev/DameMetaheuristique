@@ -11,6 +11,19 @@ public class Plateau {
     private int size = 0;
 
     public Plateau(int n) {
+        changeSize(n);
+    }
+
+    public Plateau(int[] colomns) {
+        this.size = colomns.length;
+        this.echiquier = new int[this.size];
+        for(int i = 0; i < this.size; i++) {
+            this.echiquier[i] = colomns[i];
+        }
+    }
+
+
+    public void changeSize(int n) {
         this.size = n;
 
         //int[] listeColonne = new int[n];
@@ -26,14 +39,6 @@ public class Plateau {
             int choix = (int) (Math.random() * (listeColonne.size()));
             this.echiquier[i] = listeColonne.get(choix);
             listeColonne.remove(choix);
-        }
-    }
-
-    public Plateau(int[] colomns) {
-        this.size = colomns.length;
-        this.echiquier = new int[this.size];
-        for(int i = 0; i < this.size; i++) {
-            this.echiquier[i] = colomns[i];
         }
     }
 

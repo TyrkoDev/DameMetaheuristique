@@ -16,6 +16,10 @@ public abstract class Methode {
 
     public Methode(Plateau p) {
         this.plateau = p;
+        init();
+    }
+
+    public void init() {
         this.fitness = this.calculFitness(this.plateau.getEchiquier());
         System.out.println("Fitness du plateau initial : " + this.fitness);
         this.nombreVoisin = getNombreVoisins();

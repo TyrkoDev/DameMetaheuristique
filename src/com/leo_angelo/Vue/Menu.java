@@ -53,9 +53,7 @@ public class Menu extends JDialog {
             @Override
             public void actionPerformed(ActionEvent e) {
                 init();
-                RecuitSimule recuitSimule = new RecuitSimule(plateau);
-                System.out.println(recuitSimule.calculFitness(plateau.getEchiquier()));
-                recuitSimule.resolve();
+                new RecuitSimule(plateau);
             }
         });
 
@@ -84,7 +82,6 @@ public class Menu extends JDialog {
 
     public void init() {
         plateau = new Plateau(10);
-        System.out.print(plateau);
     }
 
     private void onCancel() {
@@ -95,6 +92,6 @@ public class Menu extends JDialog {
         Menu dialog = new Menu();
         dialog.pack();
         dialog.setVisible(true);
-        //System.exit(0);
+        System.exit(0);
     }
 }
