@@ -84,7 +84,7 @@ public class RecuitSimule extends Methode {
             recuitVue.updateChart(calculFitness(plateau.getEchiquier()));
 
             temperature *= u; // on décroit la temperature jusqu'à 0.000001
-            if(temperature < 0.00001) sortie = true; //Condition de sortie
+            if(temperature < 0.0000000000000001 || fitnessMin == 0) sortie = true; //Condition de sortie
         }
 
         //recuitVue.drawResult(plateau);

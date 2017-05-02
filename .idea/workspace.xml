@@ -2,327 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03c5ff8e-1dac-4ee5-b65e-88dacc749db5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/docfiles/AreaRendererSample.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/docfiles/BarRenderer3DSample.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/docfiles/BarRendererSample.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/docfiles/BoxAndWhiskerRendererSample.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/docfiles/CandleStickRendererSample.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/docfiles/CategoryStepRendererSample.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/docfiles/ClusteredXYBarRendererSample.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/docfiles/DeviationRendererSample.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/docfiles/DialPlotSample.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/docfiles/GanttRendererSample.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/docfiles/GroupedStackedBarRendererSample.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/docfiles/HighLowRendererSample.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/docfiles/IntervalBarRendererSample.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/docfiles/LayeredBarRendererSample.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/docfiles/LevelRendererSample.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/docfiles/LineAndShapeRendererSample.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/docfiles/LineRenderer3DSample.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/docfiles/MinMaxCategoryRendererSample.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/docfiles/PiePlotSample.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/docfiles/ScatterRendererSample.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/docfiles/StackedAreaRendererSample.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/docfiles/StackedBarRenderer3DSample.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/docfiles/StackedBarRendererSample.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/docfiles/StackedXYAreaRenderer2Sample.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/docfiles/StackedXYAreaRendererSample.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/docfiles/StackedXYBarRendererSample.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/docfiles/StatisticalBarRendererSample.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/docfiles/StatisticalLineRendererSample.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/docfiles/VectorRendererSample.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/docfiles/WaterfallBarRendererSample.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/docfiles/WindItemRendererSample.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/docfiles/XYAreaRenderer2Sample.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/docfiles/XYAreaRendererSample.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/docfiles/XYBarRendererSample.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/docfiles/XYBlockRendererSample.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/docfiles/XYBoxAndWhiskerRendererSample.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/docfiles/XYBubbleRendererSample.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/docfiles/XYDifferenceRendererSample.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/docfiles/XYDotRendererSample.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/docfiles/XYErrorRendererSample.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/docfiles/XYLineAndShapeRendererSample.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/docfiles/XYShapeRendererSample.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/docfiles/XYSplineRendererSample.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/docfiles/XYStepAreaRendererSample.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/docfiles/XYStepRendererSample.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/docfiles/YIntervalRendererSample.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/jfreechart-1.0.19-demo.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/lib/hamcrest-core-1.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/lib/jcommon-1.0.23.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/lib/jfreechart-1.0.19-experimental.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/lib/jfreechart-1.0.19-swt.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/lib/jfreechart-1.0.19.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/lib/jfreesvg-2.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/lib/junit-4.11.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/lib/orsoncharts-1.4-eval-nofx.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/lib/orsonpdf-1.6-eval.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/lib/servlet.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/lib/swtgraphics2d.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/gorilla.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/ChangeLog" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/NEWS" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/ant/build-fx.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/ant/build-swt.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/ant/build.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/checkstyle/javadocs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/checkstyle/lines.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/checkstyle/properties.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/checkstyle/style.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/checkstyle/whitespace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/experimental/org/jfree/experimental/chart/demo/CombinedCategoryPlotDemo1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/experimental/org/jfree/experimental/chart/demo/CombinedXYPlotDemo1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/experimental/org/jfree/experimental/chart/plot/CombinedCategoryPlot.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/experimental/org/jfree/experimental/chart/plot/CombinedXYPlot.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/experimental/org/jfree/experimental/chart/renderer/xy/XYSmoothLineAndShapeRenderer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/licence-LGPL.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/ChartColor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/ChartFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/ChartFrame.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/ChartHints.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/ChartMouseEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/ChartMouseListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/ChartPanel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/ChartRenderingInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/ChartTheme.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/ChartTransferable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/ChartUtilities.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/ClipPath.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/DrawableLegendItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/Effect3D.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/HashUtilities.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/JFreeChart.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/annotations/AbstractAnnotation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/annotations/AbstractXYAnnotation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/annotations/Annotation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/annotations/CategoryAnnotation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/annotations/CategoryLineAnnotation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/annotations/CategoryPointerAnnotation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/annotations/CategoryTextAnnotation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/annotations/TextAnnotation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/annotations/XYAnnotation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/annotations/XYAnnotationBoundsInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/annotations/XYBoxAnnotation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/annotations/XYDataImageAnnotation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/annotations/XYDrawableAnnotation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/annotations/XYImageAnnotation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/annotations/XYLineAnnotation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/annotations/XYPointerAnnotation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/annotations/XYPolygonAnnotation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/annotations/XYShapeAnnotation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/annotations/XYTextAnnotation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/annotations/XYTitleAnnotation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/annotations/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/axis/Axis.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/axis/AxisCollection.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/axis/AxisLabelLocation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/axis/AxisLocation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/axis/AxisSpace.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/axis/AxisState.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/axis/CategoryAnchor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/axis/CategoryAxis.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/axis/CategoryAxis3D.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/axis/CategoryLabelPosition.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/axis/CategoryLabelPositions.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/axis/CategoryLabelWidthType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/axis/CategoryTick.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/axis/ColorBar.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/axis/CompassFormat.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/axis/CyclicNumberAxis.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/axis/DateAxis.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/axis/DateTick.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/axis/DateTickMarkPosition.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/axis/DateTickUnit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/axis/DateTickUnitType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/axis/ExtendedCategoryAxis.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/axis/LogAxis.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/axis/LogTick.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/axis/LogarithmicAxis.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/axis/MarkerAxisBand.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/axis/ModuloAxis.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/axis/MonthDateFormat.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/axis/NumberAxis.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/axis/NumberAxis3D.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/axis/NumberTick.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/axis/NumberTickUnit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/axis/NumberTickUnitSource.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/axis/PeriodAxis.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/axis/PeriodAxisLabelInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/axis/QuarterDateFormat.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/axis/SegmentedTimeline.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/axis/StandardTickUnitSource.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/axis/SubCategoryAxis.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/axis/SymbolAxis.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/axis/Tick.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/axis/TickType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/axis/TickUnit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/axis/TickUnitSource.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/axis/TickUnits.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/axis/Timeline.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/axis/ValueAxis.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/axis/ValueTick.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/axis/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/block/AbstractBlock.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/block/Arrangement.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/block/Block.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/block/BlockBorder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/block/BlockContainer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/block/BlockFrame.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/block/BlockParams.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/block/BlockResult.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/block/BorderArrangement.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/block/CenterArrangement.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/block/ColorBlock.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/block/ColumnArrangement.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/block/EmptyBlock.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/block/EntityBlockParams.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/block/EntityBlockResult.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/block/FlowArrangement.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/block/GridArrangement.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/block/LabelBlock.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/block/LengthConstraintType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/block/LineBorder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/block/RectangleConstraint.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/block/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/demo/BarChartDemo1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/demo/PieChartDemo1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/demo/TimeSeriesChartDemo1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/demo/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/editor/ChartEditor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/editor/ChartEditorFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/editor/ChartEditorManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/editor/DefaultAxisEditor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/editor/DefaultChartEditor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/editor/DefaultChartEditorFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/editor/DefaultColorBarEditor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/editor/DefaultLogAxisEditor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/editor/DefaultNumberAxisEditor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/editor/DefaultPlotEditor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/editor/DefaultPolarPlotEditor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/editor/DefaultTitleEditor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/editor/DefaultValueAxisEditor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/editor/LocalizationBundle.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/editor/LocalizationBundle_cs.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/editor/LocalizationBundle_de.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/editor/LocalizationBundle_es.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/editor/LocalizationBundle_fr.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/editor/LocalizationBundle_ja.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/editor/LocalizationBundle_nl.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/editor/LocalizationBundle_pl.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/editor/LocalizationBundle_pt_BR.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/editor/LocalizationBundle_pt_PT.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/editor/LocalizationBundle_ru.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/editor/LocalizationBundle_zh_CN.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/editor/PaletteChooserPanel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/editor/PaletteSample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/editor/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/encoders/EncoderUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/encoders/ImageEncoder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/encoders/ImageEncoderFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/encoders/ImageFormat.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/encoders/KeypointPNGEncoderAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/encoders/SunJPEGEncoderAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/encoders/SunPNGEncoderAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/encoders/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/entity/AxisEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/entity/CategoryItemEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/entity/CategoryLabelEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/entity/ChartEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/entity/ContourEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/entity/EntityCollection.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/entity/JFreeChartEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/entity/LegendItemEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/entity/PieSectionEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/entity/PlotEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/entity/StandardEntityCollection.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/entity/TickLabelEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/entity/TitleEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/entity/XYAnnotationEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/entity/XYItemEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/entity/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/event/AnnotationChangeEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/event/AnnotationChangeListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/event/AxisChangeEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/event/AxisChangeListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/event/ChartChangeEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/event/ChartChangeEventType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/event/ChartChangeListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/event/ChartProgressEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/event/ChartProgressListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/event/MarkerChangeEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/event/MarkerChangeListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/event/OverlayChangeEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/event/OverlayChangeListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/event/PlotChangeEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/event/PlotChangeListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/event/RendererChangeEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/event/RendererChangeListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/event/TitleChangeEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/event/TitleChangeListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/event/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/fx/ChartCanvas.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/fx/ChartViewer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/fx/ChartViewerSkin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/fx/FXGraphics2D.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/fx/chart-viewer.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/fx/demo/BarChartFXDemo1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/fx/demo/PieChartFXDemo1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/fx/demo/TimeSeriesChartFXDemo1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/fx/demo/package-info.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/fx/interaction/AbstractMouseHandlerFX.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/fx/interaction/AnchorHandlerFX.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/fx/interaction/ChartMouseEventFX.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/fx/interaction/ChartMouseListenerFX.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/fx/interaction/DispatchHandlerFX.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/fx/interaction/MouseHandlerFX.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/fx/interaction/PanHandlerFX.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/fx/interaction/ScrollHandlerFX.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/fx/interaction/TooltipHandlerFX.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/fx/interaction/ZoomHandlerFX.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/fx/interaction/package-info.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/fx/package-info.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/imagemap/DynamicDriveToolTipTagFragmentGenerator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/imagemap/ImageMapUtilities.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/imagemap/OverLIBToolTipTagFragmentGenerator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/imagemap/StandardToolTipTagFragmentGenerator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/imagemap/StandardURLTagFragmentGenerator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/imagemap/ToolTipTagFragmentGenerator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/imagemap/URLTagFragmentGenerator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/imagemap/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/labels/AbstractCategoryItemLabelGenerator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/labels/AbstractPieItemLabelGenerator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/labels/AbstractXYItemLabelGenerator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/labels/BoxAndWhiskerToolTipGenerator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/labels/BoxAndWhiskerXYToolTipGenerator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/labels/BubbleXYItemLabelGenerator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/labels/CategoryItemLabelGenerator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/labels/CategorySeriesLabelGenerator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/labels/CategoryToolTipGenerator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19/source/org/jfree/chart/labels/ContourToolTipGenerator.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/recuit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/tabou.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DamesMetaheuristique/recuit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DamesMetaheuristique/tabou.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DamesMetaheuristique/com/leo_angelo/Algorithme/Methode.class" afterPath="$PROJECT_DIR$/out/production/DamesMetaheuristique/com/leo_angelo/Algorithme/Methode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DamesMetaheuristique/com/leo_angelo/Algorithme/Plateau.class" afterPath="$PROJECT_DIR$/out/production/DamesMetaheuristique/com/leo_angelo/Algorithme/Plateau.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DamesMetaheuristique/com/leo_angelo/Algorithme/RecuitSimule.class" afterPath="$PROJECT_DIR$/out/production/DamesMetaheuristique/com/leo_angelo/Algorithme/RecuitSimule.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DamesMetaheuristique/com/leo_angelo/Vue/Menu$2.class" afterPath="$PROJECT_DIR$/out/production/DamesMetaheuristique/com/leo_angelo/Vue/Menu$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DamesMetaheuristique/com/leo_angelo/Vue/Menu$3.class" afterPath="$PROJECT_DIR$/out/production/DamesMetaheuristique/com/leo_angelo/Vue/Menu$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DamesMetaheuristique/com/leo_angelo/Vue/Menu$4.class" afterPath="$PROJECT_DIR$/out/production/DamesMetaheuristique/com/leo_angelo/Vue/Menu$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DamesMetaheuristique/com/leo_angelo/Vue/Menu$5.class" afterPath="$PROJECT_DIR$/out/production/DamesMetaheuristique/com/leo_angelo/Vue/Menu$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DamesMetaheuristique/com/leo_angelo/Vue/Menu.class" afterPath="$PROJECT_DIR$/out/production/DamesMetaheuristique/com/leo_angelo/Vue/Menu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DamesMetaheuristique/com/leo_angelo/Vue/PlateauGraph.class" afterPath="$PROJECT_DIR$/out/production/DamesMetaheuristique/com/leo_angelo/Vue/PlateauGraph.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DamesMetaheuristique.iml" afterPath="$PROJECT_DIR$/DamesMetaheuristique.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/leo_angelo/Algorithme/Methode.java" afterPath="$PROJECT_DIR$/src/com/leo_angelo/Algorithme/Methode.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/leo_angelo/Algorithme/Plateau.java" afterPath="$PROJECT_DIR$/src/com/leo_angelo/Algorithme/Plateau.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/leo_angelo/Algorithme/RecuitSimule.java" afterPath="$PROJECT_DIR$/src/com/leo_angelo/Algorithme/RecuitSimule.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/leo_angelo/Vue/Menu.java" afterPath="$PROJECT_DIR$/src/com/leo_angelo/Vue/Menu.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/leo_angelo/Vue/PlateauGraph.java" afterPath="$PROJECT_DIR$/src/com/leo_angelo/Vue/PlateauGraph.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/leo_angelo/Vue/RecuitVue.java" afterPath="$PROJECT_DIR$/src/com/leo_angelo/Vue/RecuitVue.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -345,13 +27,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RecuitVue.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RecuitVue.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/leo_angelo/Vue/RecuitVue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="54" column="41" lean-forward="false" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
+            <state relative-caret-position="216">
+              <caret line="54" column="18" lean-forward="false" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2341#2641#0" expanded="true" />
+                <element signature="e#2640#2641#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -360,8 +44,8 @@
       <file leaf-file-name="RecuitSimule.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/leo_angelo/Algorithme/RecuitSimule.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="73" column="51" lean-forward="true" selection-start-line="73" selection-start-column="51" selection-end-line="73" selection-end-column="51" />
+            <state relative-caret-position="176">
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -369,17 +53,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Menu.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Menu.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/leo_angelo/Vue/Menu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
+            <state relative-caret-position="648">
               <caret line="94" column="8" lean-forward="false" selection-start-line="94" selection-start-column="8" selection-end-line="94" selection-end-column="8" />
-              <folding>
-                <element signature="e#2680#2681#0" expanded="true" />
-                <element signature="e#2721#2722#0" expanded="true" />
-                <element signature="e#2752#2753#0" expanded="true" />
-                <element signature="e#2777#2778#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -423,9 +102,9 @@
         <option value="$PROJECT_DIR$/src/com/leo_angelo/Vue/RecuitVue.form" />
         <option value="$PROJECT_DIR$/src/com/leo_angelo/Algorithme/Plateau.java" />
         <option value="$PROJECT_DIR$/src/com/leo_angelo/Algorithme/Methode.java" />
+        <option value="$PROJECT_DIR$/src/com/leo_angelo/Vue/Menu.java" />
         <option value="$PROJECT_DIR$/src/com/leo_angelo/Algorithme/RecuitSimule.java" />
         <option value="$PROJECT_DIR$/src/com/leo_angelo/Vue/RecuitVue.java" />
-        <option value="$PROJECT_DIR$/src/com/leo_angelo/Vue/Menu.java" />
       </list>
     </option>
   </component>
@@ -459,7 +138,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -521,62 +202,6 @@
               <option name="myItemId" value="Vue" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RecuitVue" />
-              <option name="myItemType" value="com.intellij.uiDesigner.projectView.FormNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DamesMetaheuristique" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DamesMetaheuristique" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leo_angelo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Vue" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PlateauGraph" />
-              <option name="myItemType" value="com.intellij.uiDesigner.projectView.FormNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DamesMetaheuristique" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DamesMetaheuristique" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leo_angelo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Vue" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Menu" />
-              <option name="myItemType" value="com.intellij.uiDesigner.projectView.FormNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -602,8 +227,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1019,16 +642,17 @@
       <workItem from="1489585947838" duration="10527000" />
       <workItem from="1489967025177" duration="13000" />
       <workItem from="1493474394171" duration="15204000" />
-      <workItem from="1493644819146" duration="11195000" />
+      <workItem from="1493644819146" duration="11687000" />
+      <workItem from="1493712712157" duration="1494000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36939000" />
+    <option name="totallyTimeSpent" value="38925000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1040,7 +664,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20856202" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20856202" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1086,11 +710,49 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/leo_angelo/Vue/RecuitVue.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leo_angelo/Vue/RecuitVue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="54" column="41" lean-forward="false" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2341#2641#0" expanded="true" />
+            <element signature="e#2640#2641#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leo_angelo/Algorithme/RecuitSimule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1606">
+          <caret line="73" column="51" lean-forward="true" selection-start-line="73" selection-start-column="51" selection-end-line="73" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leo_angelo/Vue/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/leo_angelo/Algorithme/Plateau.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
           <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1111,12 +773,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1694">
           <caret line="90" column="18" lean-forward="false" selection-start-line="90" selection-start-column="18" selection-end-line="90" selection-end-column="18" />
-          <folding>
-            <element signature="e#2027#2028#0" expanded="true" />
-            <element signature="e#2065#2066#0" expanded="true" />
-            <element signature="e#2752#2753#0" expanded="true" />
-            <element signature="e#2777#2778#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1135,7 +792,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1153,7 +809,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="29" column="30" lean-forward="false" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
-          <folding />
+          <folding>
+            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1204,7 +863,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="638">
           <caret line="29" column="30" lean-forward="false" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
-          <folding />
+          <folding>
+            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1283,7 +945,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="44">
             <caret line="2" column="5" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1301,7 +962,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
           <caret line="158" column="0" lean-forward="false" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1339,10 +999,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leo_angelo/Vue/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="94" column="8" lean-forward="false" selection-start-line="94" selection-start-column="8" selection-end-line="94" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/leo_angelo/Algorithme/RecuitSimule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="73" column="51" lean-forward="true" selection-start-line="73" selection-start-column="51" selection-end-line="73" selection-end-column="51" />
+        <state relative-caret-position="176">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1351,23 +1019,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/leo_angelo/Vue/RecuitVue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="54" column="41" lean-forward="false" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
+        <state relative-caret-position="216">
+          <caret line="54" column="18" lean-forward="false" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leo_angelo/Vue/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="94" column="8" lean-forward="false" selection-start-line="94" selection-start-column="8" selection-end-line="94" selection-end-column="8" />
-          <folding>
-            <element signature="e#2680#2681#0" expanded="true" />
-            <element signature="e#2721#2722#0" expanded="true" />
-            <element signature="e#2752#2753#0" expanded="true" />
-            <element signature="e#2777#2778#0" expanded="true" />
+            <element signature="e#2341#2641#0" expanded="true" />
+            <element signature="e#2640#2641#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -51,8 +51,8 @@ public class RecuitVue extends JDialog {
             @Override
             public void plotChanged(PlotChangeEvent event) {
                 chart.fireChartChanged();
-                contentPane.repaint();
-                contentPane.revalidate();
+                //contentPane.repaint();
+                //contentPane.revalidate();
             }
         });
 
@@ -64,7 +64,16 @@ public class RecuitVue extends JDialog {
                 variationTemperature = 0;
                 initGraph();
                 recuitSimule.setParam(Double.valueOf(proba.getText()), Double.valueOf(varTemp.getText()), plateau);
-                recuitSimule.resolve();
+
+                new Thread() {
+                    public void run() {
+                        try {
+                            recuitSimule.resolve();
+                        } catch(Exception v) {
+                            System.out.println(v);
+                        }
+                    }
+                }.start();
             }
         });
     }
