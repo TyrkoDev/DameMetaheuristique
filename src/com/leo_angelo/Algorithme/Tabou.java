@@ -1,6 +1,7 @@
 package com.leo_angelo.Algorithme;
 
 import com.leo_angelo.Vue.PlateauGraph;
+import com.leo_angelo.Vue.TabouVue;
 
 /**
  * Created by Angelo on 15/03/2017.
@@ -11,23 +12,44 @@ public class Tabou extends Methode {
     private int[] listeTabou;
 
     private int indexTabou = 0;
+    private int taille = 3;
+
+    private TabouVue tabouVue;
 
     public Tabou(Plateau p) {
         super(p);
-        this.listeTabou = new int[3];
-        resolve();
+        init();
+
+        tabouVue = new TabouVue(this.plateau, this);
+        tabouVue.pack();
+        tabouVue.setVisible(true);
+    }
+
+    @Override
+    public void init() {
+        super.init();
+        this.listeTabou = new int[taille];
+    }
+
+    public void setParam(int tailleListe, Plateau p, int nbIteration) {
+        this.plateau = p;
+        this.taille = tailleListe;
+        this.nombreIteration = nbIteration;
     }
 
     public void resolve() {
+        init();
         int i = 0;
         while(i<nombreIteration && fitness != 0) {
             i++;
+            tabouVue.updateChart(fitness);
             System.out.println("Itération " + i);
             choisirVoisin();
         }
-        this.grille = new PlateauGraph(this.plateau);
+        tabouVue.updateChart(fitness);
+        /*this.grille = new PlateauGraph(this.plateau);
         grille.pack();
-        grille.setVisible(true);
+        grille.setVisible(true);*/
     }
 
 
@@ -48,9 +70,6 @@ public class Tabou extends Methode {
         }
         this.plateau = new Plateau(listeVoisins[iMeilleurVoisin]);
         this.fitness = this.fitnessVoisins[iMeilleurVoisin];
-        System.out.println("Nouveau plateau: ");
-        System.out.println(this.plateau);
-
     }
 
     public int findMaximumFitness() {
@@ -74,7 +93,7 @@ public class Tabou extends Methode {
 
     public void ajouterTabou(int voisinTabou) {
         listeTabou[this.indexTabou] = voisinTabou;
-        if(this.indexTabou >= 2) this.indexTabou = 0;
+        if(this.indexTabou >= taille - 1) this.indexTabou = 0;
         else this.indexTabou++;
     }
 }

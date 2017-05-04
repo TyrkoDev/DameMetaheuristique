@@ -49,10 +49,11 @@ public abstract class Methode {
     public void getVoisins() {
         this.listeVoisins = new int[this.nombreVoisin][];
         int cpt = 0;
+        int colonneTemp = 0;
         for(int i = 0; i < this.plateau.getEchiquier().length; i++) {
             for(int j = i+1; j < this.plateau.getEchiquier().length; j++) {
                 this.listeVoisins[cpt] =  this.plateau.getEchiquier();
-                int colonneTemp = this.listeVoisins[cpt][i];
+                colonneTemp = this.listeVoisins[cpt][i];
                 this.listeVoisins[cpt][i] = this.listeVoisins[cpt][j];
 
                 this.listeVoisins[cpt][j] = colonneTemp;
@@ -60,13 +61,16 @@ public abstract class Methode {
                 cpt++;
             }
         }
-
-/*        for(int i = 0; i < listeVoisins.length; i++) {
-            System.out.println("Voisins " + i + " : [");
-            for(int j = 0; j < listeVoisins[i].length; j++) {
-                System.out.println(listeVoisins[i][j] + " ");
-            }
-            System.out.println("]\n\n");
-        }*/
     }
+
+    public void afficheVoisin() {
+        for(int i = 0; i < listeVoisins.length; i++) {
+            System.out.println("Voisins " + i + " : [");
+
+            for(int j = 0; j < listeVoisins[i].length; j++) System.out.println(listeVoisins[i][j] + " ");
+
+            System.out.println("]\n\n");
+        }
+    }
+
 }

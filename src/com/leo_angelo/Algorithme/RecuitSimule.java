@@ -55,43 +55,41 @@ public class RecuitSimule extends Methode {
     public void resolve() {
         init();
         boolean sortie = false;
+        int fitnessVoisin;
         temperature = getTemperature(deltaf, p);
         meilleureSolution = plateau; // Initialisation de Xmin
         fitnessMin = calculFitness(meilleureSolution.getEchiquier()); // Initialisation de F(Xmin)
 
         while(!sortie) {
-            for (int i = 0; i < 3; i++) {
+            for (int i = 0; i < 5; i++) {
                 getVoisins();//On liste les voisins de la solution actuelle
-                choix = (int) (Math.random() * (this.listeVoisins.length));//On en choisi 1 aléatoirement
+                choisirVoisin();
                 voisin = new Plateau(this.listeVoisins[choix]);//On crée l'objet voisin
-                deltaf = calculDelta(calculFitness(voisin.getEchiquier()));//On calcule le delta (différence de fitness entre la sol actuelle et la sol voisin
+                fitnessVoisin = calculFitness(voisin.getEchiquier());
+                deltaf = calculDelta(fitnessVoisin);//On calcule le delta (différence de fitness entre la sol actuelle et la sol voisin
                 //System.out.println(voisin);//On affiche la solution voisin
 
                 if (deltaf <= 0) { // si delta inf ou egal à 0
                     plateau = voisin; // Le voisin devient Xi+1
-                    if (calculFitness(voisin.getEchiquier()) < fitnessMin) { // Si une meilleure fitness --> on affecte comme meilleure solution
-                        fitnessMin = calculFitness(voisin.getEchiquier());
+                    if (fitnessVoisin < fitnessMin) { // Si une meilleure fitness --> on affecte comme meilleure solution
+                        fitnessMin = fitnessVoisin;
                         meilleureSolution = voisin;
                     }
                 } else { //Sinon
-                    double p = Math.random(); //On prend un valeur entre 0 et 1
-                    if (p <= Math.exp(-deltaf / temperature))
-                        plateau = voisin; // Si condition == true alors voisin devient Xi+1
-                    //Sinon on garde le plateau
+                    if (Math.random() <= Math.exp(-deltaf / temperature)) plateau = voisin; // Si condition == true alors voisin devient Xi+1
+                    //Sinon on garde le plateau actuel
                 }
             }
 
-            recuitVue.updateChart(calculFitness(plateau.getEchiquier()));
+            recuitVue.updateChart(calculFitness(plateau.getEchiquier())); //On notifie la mise à jour du plateau
 
             temperature *= u; // on décroit la temperature jusqu'à 0.000001
             if(temperature < 0.0000000000000001 || fitnessMin == 0) sortie = true; //Condition de sortie
         }
-
-        //recuitVue.drawResult(plateau);
     }
 
     @Override
     public void choisirVoisin() {
-
+        choix = (int) (Math.random() * (this.listeVoisins.length));//On en choisi 1 aléatoirement
     }
 }

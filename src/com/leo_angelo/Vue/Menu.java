@@ -43,9 +43,7 @@ public class Menu extends JDialog {
             @Override
             public void actionPerformed(ActionEvent e) {
                 init();
-                Tabou tabou = new Tabou(plateau);
-                System.out.println("Fitness : " + tabou.calculFitness(plateau.getEchiquier()));
-                tabou.resolve();
+                new Tabou(plateau);
             }
         });
 
