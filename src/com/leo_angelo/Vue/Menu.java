@@ -1,5 +1,6 @@
 package com.leo_angelo.Vue;
 
+import com.leo_angelo.Algorithme.Genetique;
 import com.leo_angelo.Algorithme.Plateau;
 import com.leo_angelo.Algorithme.RecuitSimule;
 import com.leo_angelo.Algorithme.Tabou;
@@ -59,6 +60,7 @@ public class Menu extends JDialog {
             @Override
             public void actionPerformed(ActionEvent e) {
                 init();
+                new Genetique(plateau).resolve();
             }
         });
 
