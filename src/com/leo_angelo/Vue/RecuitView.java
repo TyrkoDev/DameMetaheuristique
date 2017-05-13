@@ -1,7 +1,7 @@
 package com.leo_angelo.Vue;
 
 import com.leo_angelo.Algorithme.Plateau;
-import com.leo_angelo.Algorithme.Tabou;
+import com.leo_angelo.Algorithme.RecuitSimule;
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;
 import org.jfree.chart.JFreeChart;
@@ -16,27 +16,29 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class TabouVue extends JDialog {
+public class RecuitView extends JDialog {
     private JPanel contentPane;
-    private JButton lancer;
-    private JTextField dimensionField;
-    private JTextField tailleField;
-    private JPanel plateauPanel;
+    private JTextField sizePlateauField;
+    private JTextField probabilityField;
+    private JButton startButton;
+    private JTextField variationTemperatureField;
     private JPanel params;
     private JPanel graphPanel;
+    private JPanel plateauPanel;
+    private XYSeries series;
+    private int variationTemperature = 0;
     private Plateau plateau;
     private XYSeriesCollection dataset;
     private JFreeChart chart;
-    private ChartPanel cp;
-    private XYSeries series;
-    private int iteration = 0;
+    private ChartPanel chartPanel;
 
-    public TabouVue(Plateau p, Tabou tabou) {
+    public RecuitView(Plateau plateau, RecuitSimule recuitSimule) {
         setContentPane(contentPane);
         setModal(true);
-        this.dimensionField.setText("10");
-        this.tailleField.setText("2");
-        this.plateau = p;
+        this.sizePlateauField.setText("10");
+        this.probabilityField.setText("0.5");
+        this.variationTemperatureField.setText("0.99");
+        this.plateau = plateau;
         this.dataset = new XYSeriesCollection();
 
         initGraph();
@@ -48,21 +50,19 @@ public class TabouVue extends JDialog {
             }
         });
 
-        lancer.addActionListener(new ActionListener() {
+        startButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                plateau.changeSize(Integer.parseInt(dimensionField.getText()));
+                plateau.changeSize(Integer.parseInt(sizePlateauField.getText()));
                 dataset.removeAllSeries();
-
+                variationTemperature = 0;
                 initGraph();
-
-                iteration = 0;
-                tabou.setParam(Integer.parseInt(tailleField.getText()), plateau, 100);
+                recuitSimule.setParam(Double.valueOf(probabilityField.getText()), Double.valueOf(variationTemperatureField.getText()), plateau);
 
                 new Thread() {
                     public void run() {
                         try {
-                            tabou.resolve();
+                            recuitSimule.resolve();
                         } catch(Exception v) {
                             System.out.println(v);
                         }
@@ -70,7 +70,6 @@ public class TabouVue extends JDialog {
                 }.start();
             }
         });
-
     }
 
     private void initGraph() {
@@ -78,8 +77,8 @@ public class TabouVue extends JDialog {
         this.series = new XYSeries("values");
         // Generate the graph
         this.chart = ChartFactory.createXYLineChart(
-                "Tabou", // Title
-                "Itération", // x-axis Label
+                "Recuit simulé", // Title
+                "Variation de température", // x-axis Label
                 "Fitness", // y-axis Label
                 dataset, // Dataset
                 PlotOrientation.VERTICAL, // Plot Orientation
@@ -88,16 +87,37 @@ public class TabouVue extends JDialog {
                 false // Configure chart to generate URLs?
         );
 
-        this.cp = new ChartPanel(chart);
+        this.chartPanel = new ChartPanel(chart);
         graphPanel.setLayout(new java.awt.BorderLayout());
-        graphPanel.add(cp, BorderLayout.CENTER);
+        graphPanel.add(chartPanel, BorderLayout.CENTER);
         graphPanel.validate();
     }
 
+    public void drawResult(Plateau p) {
+        System.out.println("result");
+        this.plateauPanel.removeAll();
+        this.plateauPanel.validate();
+        int size = p.getSize();
+
+        this.series = new XYSeries("data");
+
+        int[] matrice = p.getChessBoard();
+        this.plateauPanel.setLayout(new GridLayout(size, size));
+        for(int i = 0; i < size; i++) {
+            for(int j = 0; j < size; j++) {
+                JButton valueButton = new JButton();
+                valueButton.setBackground(Color.WHITE);
+                valueButton.setText(matrice[i] == j ? "D" : " ");
+                plateauPanel.add(valueButton);
+            }
+        }
+        this.plateauPanel.repaint();
+        this.plateauPanel.validate();
+    }
 
     public void updateChart(int fitness) {
-        series.add(iteration, fitness);
-        iteration++;
+        series.add(variationTemperature, fitness);
+        variationTemperature++;
 
         // Add the series to your data set
         dataset.removeAllSeries();

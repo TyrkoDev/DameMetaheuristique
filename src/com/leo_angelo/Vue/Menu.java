@@ -12,7 +12,7 @@ import java.awt.event.*;
 public class Menu extends JDialog {
     private JPanel contentPane;
     private JPanel top;
-    private JPanel choixPanel;
+    private JPanel choicePanel;
     private JButton genetiqueButton;
     private JButton tabouButton;
     private JButton recuitButton;
@@ -26,7 +26,7 @@ public class Menu extends JDialog {
         //Colors
         this.contentPane.setBackground(Color.darkGray);
         this.top.setBackground(Color.darkGray);
-        this.choixPanel.setBackground(Color.darkGray);
+        this.choicePanel.setBackground(Color.darkGray);
         this.genetiqueButton.setBackground(Color.darkGray);
         this.tabouButton.setBackground(Color.darkGray);
         this.recuitButton.setBackground(Color.darkGray);
@@ -43,7 +43,7 @@ public class Menu extends JDialog {
         tabouButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                init();
+                initialisation();
                 new Tabou(plateau);
             }
         });
@@ -51,7 +51,7 @@ public class Menu extends JDialog {
         recuitButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                init();
+                initialisation();
                 new RecuitSimule(plateau);
             }
         });
@@ -59,7 +59,7 @@ public class Menu extends JDialog {
         genetiqueButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                init();
+                initialisation();
                 new Genetique(plateau).resolve();
             }
         });
@@ -80,7 +80,7 @@ public class Menu extends JDialog {
         }, KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0), JComponent.WHEN_ANCESTOR_OF_FOCUSED_COMPONENT);
     }
 
-    public void init() {
+    public void initialisation() {
         plateau = new Plateau(10);
     }
 

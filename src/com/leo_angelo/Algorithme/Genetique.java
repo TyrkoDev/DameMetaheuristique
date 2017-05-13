@@ -3,8 +3,8 @@ package com.leo_angelo.Algorithme;
 /**
  * Created by Angelo on 12/05/2017.
  */
-public class Genetique extends Methode{
-    private int nombre_generation = 0;
+public class Genetique extends Method {
+    private int numberGeneration = 0;
 
     public Genetique(Plateau plateau) {
         super(plateau);
@@ -25,7 +25,7 @@ public class Genetique extends Methode{
      *          ex : 0011|01100 -->  0011|00011
      *               1001|00011 -->  1001|01100
      */
-    public void croisement() {
+    public void crossing() {
 
     }
 
@@ -39,13 +39,13 @@ public class Genetique extends Methode{
 
     @Override
     public void resolve() {
-        while(calculFitness(plateau.getEchiquier()) != 0) {
+        while(calculateFitness(plateau.getChessBoard()) != 0) {
 
         }
     }
 
     @Override
-    public void choisirVoisin() {
+    public void chooseNeighbour() {
         try {
             throw new Exception("Inutilisable sur l'algorithme génétique !");
         } catch (Exception e) {

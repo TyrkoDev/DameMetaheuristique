@@ -54,7 +54,7 @@ import java.util.ResourceBundle;
  *
  * <pre>
  * public class AppletC extends javax.swing.JApplet {
- *    public void init() {
+ *    public void initialisation() {
  *       ResourceBundleWrapper.removeCodeBase(getCodeBase(),
  *               (URLClassLoader) getClass().getClassLoader());
  *    ...
@@ -86,7 +86,7 @@ public class ResourceBundleWrapper {
     /**
      * Instantiate a {@link URLClassLoader} for resource lookups where the
      * codeBase URL is removed.  This method is typically called from an
-     * applet's init() method.  If this method is never called, the
+     * applet's initialisation() method.  If this method is never called, the
      * <code>getBundle()</code> methods map to the standard
      * {@link ResourceBundle} lookup methods.
      *
@@ -117,7 +117,7 @@ public class ResourceBundleWrapper {
      */
     public static ResourceBundle getBundle(String baseName) {
         // the noCodeBaseClassLoader is configured by a call to the
-        // removeCodeBase() method, typically in the init() method of an
+        // removeCodeBase() method, typically in the initialisation() method of an
         // applet...
         if (noCodeBaseClassLoader != null) {
             return ResourceBundle.getBundle(baseName, Locale.getDefault(),
@@ -140,7 +140,7 @@ public class ResourceBundleWrapper {
     public static ResourceBundle getBundle(String baseName, Locale locale) {
 
         // the noCodeBaseClassLoader is configured by a call to the
-        // removeCodeBase() method, typically in the init() method of an
+        // removeCodeBase() method, typically in the initialisation() method of an
         // applet...
         if (noCodeBaseClassLoader != null) {
             return ResourceBundle.getBundle(baseName, locale,

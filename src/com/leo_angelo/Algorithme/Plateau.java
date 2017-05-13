@@ -6,68 +6,55 @@ import java.util.ArrayList;
  * Created by Angelo on 15/03/2017.
  */
 public class Plateau {
-    private int[] echiquier;
-
+    private int[] chessBoard;
     private int size = 0;
 
-    public Plateau(int n) {
-        changeSize(n);
+    public Plateau(int dimension) {
+        changeSize(dimension);
     }
 
     public Plateau(int[] colomns) {
         this.size = colomns.length;
-        this.echiquier = new int[this.size];
+        this.chessBoard = new int[this.size];
         for(int i = 0; i < this.size; i++) {
-            this.echiquier[i] = colomns[i];
+            this.chessBoard[i] = colomns[i];
         }
     }
 
+    public void changeSize(int dimension) {
+        this.size = dimension;
+        ArrayList<Integer> listColumns = new ArrayList<>();
 
-    public void changeSize(int n) {
-        this.size = n;
+        for(int i = 0; i < this.size; i++)
+            listColumns.add(i);
 
-        //int[] listeColonne = new int[n];
-        ArrayList<Integer> listeColonne = new ArrayList<>();
+        this.chessBoard = new int[dimension];
 
         for(int i = 0; i < this.size; i++) {
-            //listeColonne[i] = i;
-            listeColonne.add(i);
-        }
-
-        this.echiquier = new int[n];
-        for(int i = 0; i < this.size; i++) {
-            int choix = (int) (Math.random() * (listeColonne.size()));
-            this.echiquier[i] = listeColonne.get(choix);
-            listeColonne.remove(choix);
+            int choice = (int) (Math.random() * (listColumns.size()));
+            this.chessBoard[i] = listColumns.get(choice);
+            listColumns.remove(choice);
         }
     }
 
-    public int[] getEchiquier() {
-        int[] echiquierReturn = new int[this.echiquier.length];
-        for(int i = 0; i<this.echiquier.length; i++) {
-            echiquierReturn[i] = this.echiquier[i];
+    public int[] getChessBoard() {
+        int[] chessBoardReturn = new int[this.chessBoard.length];
+        for(int i = 0; i<this.chessBoard.length; i++) {
+            chessBoardReturn[i] = this.chessBoard[i];
         }
-        return echiquierReturn;
+        return chessBoardReturn;
     }
-
-    /*public int[] getEchiquierNumber() {
-        int[] echiquierNumber = new int[this.echiquier.length];
-        for(int i=0; i<this.echiquier.length; i++) {
-            echiquierNumber[i] = this.echiquier[i].getNum();
-        }
-        return echiquierNumber;
-    }*/
 
     public String toString() {
-        StringBuilder stb = new StringBuilder();
+        StringBuilder stringBuilder = new StringBuilder();
         for(int i = 0; i < this.size; i++) {
             for(int j = 0; j < this.size; j++) {
-                stb.append((echiquier[i] == j ? 1 : 0) + " ");
+                stringBuilder.append((chessBoard[i] == j ? 1 : 0) + " ");
             }
-            stb.append("\n");
+            stringBuilder.append("\n");
         }
 
-        return stb.toString();
+        return stringBuilder.toString();
     }
 
     public int getSize() {

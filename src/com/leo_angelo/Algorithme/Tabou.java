@@ -1,99 +1,94 @@
 package com.leo_angelo.Algorithme;
 
-import com.leo_angelo.Vue.PlateauGraph;
-import com.leo_angelo.Vue.TabouVue;
+import com.leo_angelo.Vue.TabouView;
 
 /**
  * Created by Angelo on 15/03/2017.
  */
-public class Tabou extends Methode {
+public class Tabou extends Method {
 
-    private int[] fitnessVoisins;
-    private int[] listeTabou;
+    private int[] fitnessNeighbours;
+    private int[] listTabou;
 
     private int indexTabou = 0;
-    private int taille = 3;
+    private int size = 3;
 
-    private TabouVue tabouVue;
+    private TabouView tabouView;
 
     public Tabou(Plateau p) {
         super(p);
-        init();
+        initialisation();
 
-        tabouVue = new TabouVue(this.plateau, this);
-        tabouVue.pack();
-        tabouVue.setVisible(true);
+        tabouView = new TabouView(this.plateau, this);
+        tabouView.pack();
+        tabouView.setVisible(true);
     }
 
     @Override
-    public void init() {
-        super.init();
-        this.listeTabou = new int[taille];
+    public void initialisation() {
+        super.initialisation();
+        this.listTabou = new int[size];
     }
 
     public void setParam(int tailleListe, Plateau p, int nbIteration) {
         this.plateau = p;
-        this.taille = tailleListe;
-        this.nombreIteration = nbIteration;
+        this.size = tailleListe;
+        this.iterationNumber = nbIteration;
     }
 
     public void resolve() {
-        init();
+        initialisation();
         int i = 0;
-        while(i<nombreIteration && fitness != 0) {
+        while(i< iterationNumber && fitness != 0) {
             i++;
-            tabouVue.updateChart(fitness);
-            System.out.println("Itération " + i);
-            choisirVoisin();
+            tabouView.updateChart(fitness);
+            System.out.println("Iteration " + i);
+            chooseNeighbour();
         }
-        tabouVue.updateChart(fitness);
-        /*this.grille = new PlateauGraph(this.plateau);
-        grille.pack();
-        grille.setVisible(true);*/
+        tabouView.updateChart(fitness);
     }
 
 
     @Override
-    public void choisirVoisin() {
-        getVoisins();
-        this.fitnessVoisins = new int[this.listeVoisins.length];
-        for(int i=0; i<this.listeVoisins.length; i++) {
-            this.fitnessVoisins[i] = calculFitness(this.listeVoisins[i]);
-            //System.out.println("Voisin " + i + " has fitness " + this.fitnessVoisins[i]);
-        }
-        int iMeilleurVoisin = findMaximumFitness();
-        System.out.println("Meilleur voisin : " + iMeilleurVoisin + " has fitness " + this.fitnessVoisins[iMeilleurVoisin]);
+    public void chooseNeighbour() {
+        getNeighbours();
+        this.fitnessNeighbours = new int[this.listNeighbour.length];
+        for(int i = 0; i<this.listNeighbour.length; i++)
+            this.fitnessNeighbours[i] = calculateFitness(this.listNeighbour[i]);
 
-        if(this.fitnessVoisins[iMeilleurVoisin] >= this.fitness) {
-            System.out.println("Ajout du voisin " + iMeilleurVoisin + " en tabou !!");
-            ajouterTabou(iMeilleurVoisin);
+        int iBestNeighbour = findMaximumFitness();
+        System.out.println("Meilleur voisin : " + iBestNeighbour + " has fitness " + this.fitnessNeighbours[iBestNeighbour]);
+
+        if(this.fitnessNeighbours[iBestNeighbour] >= this.fitness) {
+            System.out.println("Ajout du voisin " + iBestNeighbour + " en tabou !!");
+            addTabou(iBestNeighbour);
         }
-        this.plateau = new Plateau(listeVoisins[iMeilleurVoisin]);
-        this.fitness = this.fitnessVoisins[iMeilleurVoisin];
+        this.plateau = new Plateau(listNeighbour[iBestNeighbour]);
+        this.fitness = this.fitnessNeighbours[iBestNeighbour];
     }
 
     public int findMaximumFitness() {
         int imax = 0;
-        for(int i=1; i<this.fitnessVoisins.length; i++) {
-            if(this.fitnessVoisins[i] < this.fitnessVoisins[imax] && !estTabou(i)) {
+        for(int i = 1; i<this.fitnessNeighbours.length; i++) {
+            if(this.fitnessNeighbours[i] < this.fitnessNeighbours[imax] && !isTabou(i)) {
                 imax = i;
             }
         }
         return imax;
     }
 
-    public boolean estTabou(int voisinATester) {
-        if(listeTabou != null) {
-            for (int i=0; i<listeTabou.length; i++) {
-                if(listeTabou[i] == voisinATester) return true;
+    public boolean isTabou(int neighbourToTest) {
+        if(listTabou != null) {
+            for (int i = 0; i< listTabou.length; i++) {
+                if(listTabou[i] == neighbourToTest) return true;
             }
         }
         return false;
     }
 
-    public void ajouterTabou(int voisinTabou) {
-        listeTabou[this.indexTabou] = voisinTabou;
-        if(this.indexTabou >= taille - 1) this.indexTabou = 0;
+    public void addTabou(int neighbourTabou) {
+        listTabou[this.indexTabou] = neighbourTabou;
+        if(this.indexTabou >= size - 1) this.indexTabou = 0;
         else this.indexTabou++;
     }
 }
