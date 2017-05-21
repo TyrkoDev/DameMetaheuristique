@@ -5,7 +5,7 @@ import com.leo_angelo.Vue.TabouView;
 /**
  * Created by Angelo on 15/03/2017.
  */
-public class Tabou extends Method {
+public class Tabou extends AlgorithmWithNeighbours {
 
     private int[] fitnessNeighbours;
     private int[] listTabou;
@@ -42,7 +42,6 @@ public class Tabou extends Method {
         while(i< iterationNumber && fitness != 0) {
             i++;
             tabouView.updateChart(fitness);
-            System.out.println("Iteration " + i);
             chooseNeighbour();
         }
         tabouView.updateChart(fitness);
@@ -54,15 +53,14 @@ public class Tabou extends Method {
         getNeighbours();
         this.fitnessNeighbours = new int[this.listNeighbour.length];
         for(int i = 0; i<this.listNeighbour.length; i++)
-            this.fitnessNeighbours[i] = calculateFitness(this.listNeighbour[i]);
+            this.fitnessNeighbours[i] = getFitness(this.listNeighbour[i]);
 
         int iBestNeighbour = findMaximumFitness();
-        System.out.println("Meilleur voisin : " + iBestNeighbour + " has fitness " + this.fitnessNeighbours[iBestNeighbour]);
 
         if(this.fitnessNeighbours[iBestNeighbour] >= this.fitness) {
-            System.out.println("Ajout du voisin " + iBestNeighbour + " en tabou !!");
             addTabou(iBestNeighbour);
         }
+
         this.plateau = new Plateau(listNeighbour[iBestNeighbour]);
         this.fitness = this.fitnessNeighbours[iBestNeighbour];
     }

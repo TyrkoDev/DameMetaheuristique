@@ -373,7 +373,7 @@ public class SpiderWebPlot extends Plot implements Cloneable, Serializable {
     }
 
     /**
-     * Method to determine if the web chart is to be filled.
+     * AlgorithmWithNeighbours to determine if the web chart is to be filled.
      *
      * @return A boolean.
      *

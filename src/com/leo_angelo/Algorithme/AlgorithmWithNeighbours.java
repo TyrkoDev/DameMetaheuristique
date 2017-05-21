@@ -3,40 +3,22 @@ package com.leo_angelo.Algorithme;
 /**
  * Created by Angelo on 15/03/2017.
  */
-public abstract class Method {
-    protected Plateau plateau; // X0
-    protected int fitness;     // f0
+public abstract class AlgorithmWithNeighbours extends Algorithm {
     protected int[][] listNeighbour;
     protected int numberNeighbour;
-    protected int iterationNumber = 10;
+    protected Plateau plateau; // X0
 
-    public Method(Plateau p) {
+    public AlgorithmWithNeighbours(Plateau p) {
         this.plateau = p;
         this.initialisation();
     }
 
     public void initialisation() {
-        this.fitness = this.calculateFitness(this.plateau.getChessBoard());
-        System.out.println("Fitness du plateau initial : " + this.fitness);
+        this.fitness = this.getFitness(this.plateau.getChessBoard());
         this.numberNeighbour = getNumberNeighbour();
     }
 
-    public abstract void resolve();
-
     public abstract void chooseNeighbour();
-
-    public int calculateFitness(int[] colomns) {
-        int fitness = 0;
-
-        for(int i = 0; i < colomns.length; i++) {
-            for(int j = i+1; j < colomns.length; j++) {
-                if (Math.abs(colomns[i] - colomns[j]) == (Math.abs(i - j))) {
-                    fitness++;
-                }
-            }
-        }
-        return fitness;
-    }
 
     public int getNumberNeighbour() {
         return (this.plateau.getChessBoard().length-1) * (this.plateau.getChessBoard().length/2);
@@ -58,15 +40,4 @@ public abstract class Method {
             }
         }
     }
-
-    public void displayPlateau() {
-        for(int i = 0; i < listNeighbour.length; i++) {
-            System.out.println("Voisins " + i + " : [");
-
-            for(int j = 0; j < listNeighbour[i].length; j++) System.out.println(listNeighbour[i][j] + " ");
-
-            System.out.println("]\n\n");
-        }
-    }
-
 }

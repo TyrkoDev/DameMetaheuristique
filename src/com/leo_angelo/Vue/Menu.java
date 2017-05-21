@@ -60,7 +60,7 @@ public class Menu extends JDialog {
             @Override
             public void actionPerformed(ActionEvent e) {
                 initialisation();
-                new Genetique(plateau).resolve();
+                new Genetique().resolve();
             }
         });
 

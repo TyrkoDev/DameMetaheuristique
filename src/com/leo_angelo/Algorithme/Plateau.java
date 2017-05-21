@@ -45,6 +45,10 @@ public class Plateau {
         return chessBoardReturn;
     }
 
+    public void setChessBoard(int[] newChessBoard) {
+        this.chessBoard = newChessBoard;
+    }
+
     public String toString() {
         StringBuilder stringBuilder = new StringBuilder();
         for(int i = 0; i < this.size; i++) {

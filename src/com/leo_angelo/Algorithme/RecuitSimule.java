@@ -5,7 +5,7 @@ import com.leo_angelo.Vue.RecuitView;
 /**
  * Created by Angelo on 15/03/2017.
  */
-public class RecuitSimule extends Method {
+public class RecuitSimule extends AlgorithmWithNeighbours {
 
     private int choice = -1;
     private int deltaf = -1;
@@ -34,7 +34,7 @@ public class RecuitSimule extends Method {
     }
 
     public int calculDelta(int fitnessVoisin) {
-        return fitnessVoisin - this.calculateFitness(this.plateau.getChessBoard());
+        return fitnessVoisin - this.getFitness(this.plateau.getChessBoard());
     }
 
     public void setParam(double p, double u, Plateau plateau) {
@@ -53,14 +53,14 @@ public class RecuitSimule extends Method {
         int fitnessVoisin;
         temperature = getTemperature(deltaf, probability);
         bestSolution = plateau; // Initialisation de Xmin
-        fitnessMin = calculateFitness(bestSolution.getChessBoard()); // Initialisation de F(Xmin)
+        fitnessMin = getFitness(bestSolution.getChessBoard()); // Initialisation de F(Xmin)
 
         while(!sortie) {
             for (int i = 0; i < 5; i++) {
                 getNeighbours();//On liste les voisins de la solution actuelle
                 chooseNeighbour();
                 neighbourPlateau = new Plateau(this.listNeighbour[choice]);//On crée l'objet neighbourPlateau
-                fitnessVoisin = calculateFitness(neighbourPlateau.getChessBoard());
+                fitnessVoisin = getFitness(neighbourPlateau.getChessBoard());
                 deltaf = calculDelta(fitnessVoisin);//On calcule le delta (différence de fitness entre la sol actuelle et la sol neighbourPlateau
                 //System.out.println(neighbourPlateau);//On affiche la solution neighbourPlateau
 
@@ -76,7 +76,7 @@ public class RecuitSimule extends Method {
                 }
             }
 
-            recuitView.updateChart(calculateFitness(plateau.getChessBoard())); //On notifie la mise à jour du plateau
+            recuitView.updateChart(getFitness(plateau.getChessBoard())); //On notifie la mise à jour du plateau
 
             temperature *= u; // on décroit la temperature jusqu'à 0.000001
             if(temperature < 0.0000000000000001 || fitnessMin == 0) sortie = true; //Condition de sortie

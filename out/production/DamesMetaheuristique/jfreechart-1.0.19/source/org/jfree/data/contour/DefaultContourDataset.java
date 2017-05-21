@@ -331,7 +331,7 @@ public class DefaultContourDataset extends AbstractXYZDataset
     /**
      * Returns the name of the specified series.
      *
-     * Method provided to satisfy the XYDataset interface implementation
+     * AlgorithmWithNeighbours provided to satisfy the XYDataset interface implementation
      *
      * @param series must be zero.
      *
