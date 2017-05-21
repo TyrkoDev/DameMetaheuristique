@@ -1,5 +1,7 @@
 package com.leo_angelo.Algorithme;
 
+import com.leo_angelo.Vue.GenetiqueView;
+
 import java.util.ArrayList;
 
 /**
@@ -7,18 +9,40 @@ import java.util.ArrayList;
  */
 public class Genetique extends Algorithm {
     private final static int NB_PLATEAU = 50;
-    private final static int DIMENSION = 200;
 
+    private GenetiqueView genetiqueView;
+    private int dimension;
     private int numberGeneration = 1700;
     private ArrayList<Plateau> listPlateau = new ArrayList<>();
 
-    public Genetique() {}
+    public Genetique() {
+        genetiqueView = new GenetiqueView(this);
+        genetiqueView.pack();
+        genetiqueView.setVisible(true);
+    }
 
     @Override
     public void initialisation() {
+        listPlateau = new ArrayList<>();
         for(int i = 0; i < NB_PLATEAU; i++) {
-            listPlateau.add(new Plateau(DIMENSION));
+            listPlateau.add(new Plateau(dimension));
         }
+    }
+
+    public int getDimension() {
+        return dimension;
+    }
+
+    public void setDimension(int dimension) {
+        this.dimension = dimension;
+    }
+
+    public int getNumberGeneration() {
+        return numberGeneration;
+    }
+
+    public void setNumberGeneration(int numberGeneration) {
+        this.numberGeneration = numberGeneration;
     }
 
     /**
@@ -28,12 +52,12 @@ public class Genetique extends Algorithm {
      */
     public Plateau mutation(Plateau plateau) {
         int[] chessBoard = plateau.getChessBoard();
-        int columnToSwap = (int) (Math.random() * DIMENSION);
+        int columnToSwap = (int) (Math.random() * dimension);
         int columnToSwapWith = columnToSwap;
         int columnTemp;
 
         while(columnToSwap == columnToSwapWith)
-            columnToSwapWith = (int) (Math.random() * DIMENSION);
+            columnToSwapWith = (int) (Math.random() * dimension);
 
         columnTemp = chessBoard[columnToSwap];
         chessBoard[columnToSwap] = chessBoard[columnToSwapWith];
@@ -53,12 +77,12 @@ public class Genetique extends Algorithm {
     public Plateau crossing(Plateau plateau1, Plateau plateau2) {
         int[] chessBoard1 = plateau1.getChessBoard();
         int[] chessBoard2 = plateau2.getChessBoard();
-        int[] newChessBoard = new int[DIMENSION];
+        int[] newChessBoard = new int[dimension];
 
-        int cut = (int) (Math.random() * DIMENSION);
-        Plateau crossedPlateau = new Plateau(DIMENSION);
+        int cut = (int) (Math.random() * dimension);
+        Plateau crossedPlateau = new Plateau(dimension);
 
-        for(int i = 0; i < DIMENSION; i++) {
+        for(int i = 0; i < dimension; i++) {
             if(i < cut) newChessBoard[i] = chessBoard1[i];
             else newChessBoard[i] = chessBoard2[i];
         }
@@ -114,6 +138,7 @@ public class Genetique extends Algorithm {
             if(newListPlateau.size() > 1) {
                 listPlateau = newListPlateau;
                 fitness = getPlateauFitnessMin(listPlateau);
+                genetiqueView.updateChart(fitness);
             }
         }
 

@@ -15,13 +15,13 @@ public class PlateauGraph extends JDialog {
         setModal(true);
         int size = plateau.getSize();
 
-        int[] matrice = plateau.getChessBoard();
+        int[] matrix = plateau.getChessBoard();
         this.grid.setLayout(new GridLayout(size, size));
         for(int i = 0; i < size; i++) {
             for(int j = 0; j < size; j++) {
                 JButton val = new JButton();
                 val.setBackground(Color.WHITE);
-                val.setText(matrice[i] == j ? "D" : " ");
+                val.setText(matrix[i] == j ? "D" : " ");
                 grid.add(val);
             }
         }
