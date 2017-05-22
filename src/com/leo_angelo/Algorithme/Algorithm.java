@@ -23,4 +23,18 @@ public abstract class Algorithm {
         }
         return fitness;
     }
+
+    public int getFitness(int[] colomns, int index) {
+        int fitness = 0;
+        if(index < colomns.length) {
+            for(int i = index+1; i < colomns.length; i++) {
+                if (Math.abs(colomns[index] - colomns[i]) == i - index ) {
+                    fitness++;
+                }
+            }
+            index++;
+            fitness += getFitness(colomns, index);
+        }
+        return fitness;
+    }
 }
