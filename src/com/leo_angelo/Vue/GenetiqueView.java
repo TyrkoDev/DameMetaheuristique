@@ -14,6 +14,8 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
+import static java.lang.Thread.sleep;
+
 public class GenetiqueView extends JDialog {
     private JPanel contentPane;
     private JPanel graphic;
